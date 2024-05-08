@@ -26,4 +26,4 @@ listas = (
 
 senha = ''.join(random.sample(listas, len(listas)))
 
-print(senha)
+print(f'Sua nova senha é: {senha}')
