@@ -1,7 +1,5 @@
-
 def imc(peso,altura):
      return peso/(altura**2)
-
 
 nome = (input('Digite seu nome:')).strip().title()
 peso = float(input('Digite seu peso:'))
