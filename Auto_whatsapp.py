@@ -13,8 +13,6 @@ for package in required_packages:
         print(f"Instalando {package}...")
         install(package)
 
-        
-
 import pywhatkit as kit
 
 num = int(input('Digite o número com (ddd): ').strip())
